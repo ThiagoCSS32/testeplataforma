@@ -1,0 +1,26 @@
+.game {
+    background-color: brown;
+    width: 1080px;
+    height: 620px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 3px solid black;
+    position: absolute;
+}
+.persona {
+    position:absolute; /*a div deve estar em absolute para que consiga andar livremente*/
+    background-color: aquamarine;
+    background-position: 150px 150px;
+    width: 50px;
+    height: 50px;
+    left: px;   /*esquerda e topo somente para informar onde a div vai ficar*/
+    top: 523px; 
+ 
+}
+.stage {
+    background-color: blueviolet;
+    width: 1080px;
+    height: 50px;
+    position: absolute;
+}
